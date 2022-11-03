@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: aqua;
+    border-radius: 1rem;
+}
+
+button{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+}
+button:hover{
+    background:aqua;
+}
